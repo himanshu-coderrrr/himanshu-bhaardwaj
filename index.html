@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Learning Resources</title>
+    <style>
+        /* Page Background Color */
+        body {
+            background-color: #f4f4f9;
+        }
+
+        /* Custom Heading Style */
+        .custom-heading {
+            font-family: 'Arial', sans-serif;
+            color: #2d3748;
+            font-weight: bold; /* Making the heading bold */
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Custom Button Style */
+        .custom-btn {
+            background-color: #4c51bf;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .custom-btn:hover {
+            background-color: #434190;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="https://m.media-amazon.com/images/S/aplus-media/vc/f5a33ec2-6461-43c7-a58e-949cd40a9782._.png" alt="logo" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full">
+                <span class="ml-3 text-xl">Learning Resources</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="/" class="mr-5 hover:text-gray-900">Home</a>
+                <a href="/" class="mr-5 hover:text-gray-900">About Us</a>
+                <a href="/" class="mr-5 hover:text-gray-900">Courses</a>
+                <a href="/" class="mr-5 hover:text-gray-900">Contact</a>
+            </nav>
+            <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Sign Up
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 custom-heading">Welcome to
+                    <br class="hidden lg:inline-block">Learning Resources
+                </h1>
+                <p class="mb-8 leading-relaxed">This is an educational resource website providing students with various learning materials.</p>
+                <div class="flex justify-center">
+                    <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg custom-btn">Get Resources</button>
+                    <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg custom-btn">Sign Up</button>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="https://plus.unsplash.com/premium_photo-1677187301535-b46cec7b2cc8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nJTIwYm9va3MlMjA3MjB4NjAwfGVufDB8fDB8fHww/720x660">
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Resources</h2>
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 custom-heading">Zero to Hero</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">This website provides various educational resources for students, making learning fun and interactive through quizzes and groups.</p>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Python</h2>
+                    <p class="leading-relaxed text-base mb-4">Click on topic.</p>
+                    <a class="text-indigo-500 inline-flex items-center" href="https://drive.google.com/uc?export=download&id=1cua4a-FAm08c3STbtw_Yb-2S53vZiIBN" download>Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">SQL</h2>
+                    <p class="leading-relaxed text-base mb-4">Click on topic.</p>
+                    <a class="text-indigo-500 inline-flex items-center" href="https://drive.google.com/uc?export=download&id=1cua4a-FAm08c3STbtw_Yb-2S53vZiIBN" download>Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">DBMS</h2>
+                    <p class="leading-relaxed text-base mb-4">Click on topic.</p>
+                    <a class="text-indigo-500 inline-flex items-center" href="https://drive.google.com/uc?export=download&id=1cua4a-FAm08c3STbtw_Yb-2S53vZiIBN" download>Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Computer Networks</h2>
+                    <p class="leading-relaxed text-base mb-4">Click on topic.</p>
+                    <a class="text-indigo-500 inline-flex items-center" href="https://drive.google.com/uc?export=download&id=1aMGTX1mKNwNE7IKwZc4AIoInFrlSEMMF" download>Protocols
+                        <span class="ml-4">|</span>
+                        <a href="https://drive.google.com/uc?export=download&id=16V-sCaEu4TL4SbQD_y3g3nJJDegtPk0T" download>Network Configuration</a>
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Footer Section -->
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Logo_Amazon_Web_Services.png" alt="logo" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full">
+                <span class="ml-3 text-xl">Learning Resources</span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2025 Learning Resources</p> <!-- Updated year to 2025 -->
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <!-- Instagram Icon -->
+                <a href="https://www.instagram.com/its_anshu.76/" class="ml-3 text-gray-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>
